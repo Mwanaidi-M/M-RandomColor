@@ -1,4 +1,56 @@
+:root
+{
+    --main-heading-font :'Copse', serif;
+    --heading-font: 'Mulish', sans-serif;
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body
 {
     background-color: rgb(240, 230, 217);
+    height: 100vh;
+}
+
+header
+{
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+}
+.linkHome
+{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: var(--main-heading-font);
+    color: #0F0A0A ;
+    cursor: pointer;
+}
+
+main
+{
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+.hexUpper
+{
+    text-transform: uppercase;
+}
+
+main > h2
+{
+    font-family: var(--heading-font);
+}
+footer
+{
+    /* border: 2px solid red; */
+    padding: 10px;
+    font-family: var(--main-heading-font);
 }
